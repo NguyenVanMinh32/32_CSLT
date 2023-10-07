@@ -1,6 +1,4 @@
-a=int(input('gia niem yet:'))
-b=int(input('chiet khau:'))
+a=int(input('Nhap Gia niem yet: '))
+b=int(input('Nhap Chiet khau: '))
 vat=(a-b)*0.01
-print('gia niem yet:',a)
-print('chiet khau:',b)
-print('VAT:',vat)
+print('Gia ban:',a-b+vat)
