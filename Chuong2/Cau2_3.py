@@ -1,0 +1,8 @@
+P=float(input('Tien von dau tu ban dau:'))
+r=float(input('lai suat tien gui moi thang:'))
+n=int(input('so thang:'))
+TLCK=P*(1+r*n)
+print('Tien dau tu ban dau:',P)
+print("So thang gui:",n)
+print('Lai suat moi thang:',r)
+print('Tien lanh cuoi ky:',TLCK)
