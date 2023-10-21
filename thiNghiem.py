@@ -14,3 +14,7 @@ dt=math.pi*r**2
 cv=2*r*math.pi
 print('Dien tich cua duong tron co ban kinh',r,'la',round(dt,1))
 print('Chu vi cua duong tron co ban kinh',r,'la',round(cv,1))'''
+a=int(input('a='))
+b=int(input('b='))
+c=int(input('c='))
+print(max(a,b,c))
