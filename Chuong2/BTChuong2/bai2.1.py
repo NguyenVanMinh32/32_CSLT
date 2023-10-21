@@ -1,2 +1,2 @@
-hoten=input('Nhap ho ten:')
-print('Chao ban',hoten,'!!!')
+ht=input('Nhap ho ten:')
+print('Chao ban',ht,'!!!')
