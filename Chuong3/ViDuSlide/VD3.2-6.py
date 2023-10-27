@@ -5,7 +5,7 @@ while a<=4:
         b=b+1
         print('%',end=' ') 
         d=1
-        while d<=a:
+        '''while d<=a:
             d=d+1
             print('^',end=' ')
         c=1
@@ -15,6 +15,6 @@ while a<=4:
         d=1
         while d<=b:
             d=d+1
-            print('^',end=' ')
+            print('^',end=' ')'''
     a=a+1
     print('8')
