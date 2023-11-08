@@ -7,7 +7,7 @@ print('QuanTriMang xin chào bạn, ' + x)'''
 '''a = bytes("ŽString", encoding = 'utf-8')
 s = str(a, encoding = "ascii", errors ="replace")
 print(s)'''
-print(float(25))
+#print(float(25))
 '''import math
 r=float(input('Nhap vao ban kinh cua duong tron:'))
 dt=math.pi*r**2
@@ -18,7 +18,7 @@ print('Chu vi cua duong tron co ban kinh',r,'la',round(cv,1))'''
 b=int(input('b='))
 c=int(input('c='))
 print(max(a,b,c))'''
-n=int(input('n='))
+'''n=int(input('n='))
 S=1
 if n>0:
     while True:
@@ -32,5 +32,7 @@ else:
         n=n+1
         if n==0:
             break
-print(S)
-    
+print(S)'''
+# max_length = 3  # Đặt giới hạn số ký tự
+# user_input = input("Nhập chuỗi: ")[:max_length]
+# print("Chuỗi đã nhập:", user_input)
