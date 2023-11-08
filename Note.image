@@ -4,8 +4,7 @@ nhanh
 thân thiệ
 clean
 nhẹ, ít dung lượng
- sử dụng cặp 3 dấu nháy (triple quotes) (''') hoặc ("""). để chú thích
-  từ khóa: and, del, from, nonlocal, try, as, elif, global, not, while, assert, else, if, or, with, break, except, import, pass, yield, class, finally, in, print, continue, is, raise, def, for, lambda, return
+từ khóa: and, del, from, nonlocal, try, as, elif, global, not, while, assert, else, if, or, with, break, except, import, pass, yield, class, finally, in, print, continue, is, raise, def, for, lambda, return
  Bằng: a == b
 Không bằng: a != b
 Nhỏ hơn: a < b

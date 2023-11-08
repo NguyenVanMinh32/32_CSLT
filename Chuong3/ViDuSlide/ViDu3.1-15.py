@@ -4,7 +4,7 @@ b=float(input('b='))
 c=float(input('c='))
 d=(b**2)-(4*a*c)
 if d>0:
-    print("Phuong trinh co 2 nghiem phan biet",)
+    print('Phuong trinh co 2 nghiem phan biet',)
     print('x1=',(-b+math.sqrt(d))/(2*a))
     print('x2=',(-b-math.sqrt(d))/(2*a))
 elif d==0:

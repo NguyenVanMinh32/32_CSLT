@@ -1,5 +1,5 @@
 {
-    "python.analysis.typeCheckingMode": "basic",
-    "python.analysis.autoImportCompletions": true,
-    "workbench.startupEditor": "none"
+    'python.analysis.typeCheckingMode': 'basic',
+    'python.analysis.autoImportCompletions': true,
+    'workbench.startupEditor': 'none'
 }

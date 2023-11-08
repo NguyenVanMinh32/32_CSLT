@@ -1,7 +1,7 @@
 S=0
-n=int(input("Nhap n="))
+n=int(input('Nhap n='))
 for i in range(1,n+1):
-    print("So thu ",i,": ",sep="",end="")
+    print('So thu ',i,': ',sep='',end='')
     x=int(input())
     if x<0:
         continue
@@ -9,4 +9,4 @@ for i in range(1,n+1):
         break
     else:
         S=S+x
-print("S=",S,sep="")
+print('S=',S,sep='')
