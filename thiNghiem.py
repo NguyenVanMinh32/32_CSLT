@@ -64,3 +64,17 @@ elif lower_noise:
     print(f'The noise is quieter than {lower_noise}.')
 elif higher_noise:
     print(f'The noise is louder than {higher_noise}.')'''
+    ##
+# Compute the greatest common divisor of two 
+# positive integers using a while loop.
+#
+
+# Read two positive integers from the user
+n =  363
+m =  488
+
+d =  min (n, m)
+
+print(d)
+
+
