@@ -114,8 +114,7 @@ print(f"Tails: {tails}")
 
 # if __name__ == "__main__":
 #     main()
-import random
-
+'''import random
 def simulate_coin_series():
     consecutive_count = 0
     flips_needed = 0
@@ -146,4 +145,32 @@ def main():
     print(f"\nSố lần tung trung bình cần: {average_flips:.2f}")
 
 if __name__ == "__main__":
-    main()
+    main()'''
+import random
+
+def tim_gia_tri_lon_nhat():
+    # Chọn một số nguyên ngẫu nhiên ban đầu từ 1 đến 100
+    so_lon_nhat = random.randint(1, 100)
+    cap_nhat = 0  # Đếm số lần cập nhật
+
+    # Hiển thị số lớn nhất ban đầu
+    print(f"Số Lớn Nhất Ban Đầu: {so_lon_nhat}")
+
+    # Sinh thêm 99 số nguyên ngẫu nhiên
+    for _ in range(5):
+        so_hien_tai = random.randint(1,100)
+
+        # Kiểm tra nếu số hiện tại lớn hơn số lớn nhất đã gặp
+        if so_hien_tai > so_lon_nhat:
+            so_lon_nhat = so_hien_tai
+            cap_nhat += 1
+            print(f"{so_hien_tai} (Số Lớn Nhất Mới)")
+        else:
+            print(so_hien_tai)
+
+    # Hiển thị số lớn nhất cuối cùng và số lần cập nhật
+    print(f"\nSố Lớn Nhất Cuối Cùng: {so_lon_nhat}")
+    print(f"Số Lần Cập Nhật: {cap_nhat}")
+
+# Chạy chương trình
+tim_gia_tri_lon_nhat()
