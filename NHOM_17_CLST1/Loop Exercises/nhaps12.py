@@ -28,22 +28,89 @@ if set(nhap_nhi_phan) <= {'0', '1'}:
     print(f"Số thập phân tương đương với {nhap_nhi_phan} là: {ket_qua_thap_phan}")
 else:
     print("Lỗi: Vui lòng nhập một số nhị phân hợp lệ.")'''
-def decimal_to_binary(decimal_num):
-    binary_str = ''
+# def decimal_to_binary(decimal_num):
+#     binary_str = ''
 
-    if decimal_num == 0:
-        binary_str = '0'
+#     if decimal_num == 0:
+#         binary_str = '0'
 
-    while decimal_num > 0:
-        remainder = decimal_num % 2
-        binary_str = str(remainder) + binary_str
-        decimal_num = decimal_num // 2
+#     while decimal_num > 0:
+#         remainder = decimal_num % 2
+#         binary_str = str(remainder) + binary_str
+#         decimal_num = decimal_num // 2
 
-    return binary_str
+#     return binary_str
 
-# Nhập số thập phân từ người dùng
-so_thap_phan = int(input("Nhập một số thập phân: "))
+# # Nhập số thập phân từ người dùng
+# so_thap_phan = int(input("Nhập một số thập phân: "))
 
-ket_qua_nhi_phan = decimal_to_binary(so_thap_phan)
-print(f"Biểu diễn nhị phân của {so_thap_phan} là: {ket_qua_nhi_phan}")
+# ket_qua_nhi_phan = decimal_to_binary(so_thap_phan)
+# print(f"Biểu diễn nhị phân của {so_thap_phan} là: {ket_qua_nhi_phan}")
 
+'''import random
+def coin_flip():
+    # Generate a random number (0 or 1)
+    result = random.randint(0, 1)
+    
+    # Return 'Heads' for 0, 'Tails' for 1
+    return 'Heads' if result == 0 else 'Tails'
+
+def simulate_coin_flips(num_flips):
+    # Perform coin flips and count the occurrences of Heads and Tails
+    heads_count = 0
+    tails_count = 0
+    
+    for _ in range(num_flips):
+        result = coin_flip()
+        if result == 'Heads':
+            heads_count += 1
+        else:
+            tails_count += 1
+    
+    # Return the results
+    return heads_count, tails_count
+# Example: Simulate 100 coin flips
+num_flips = 100
+heads, tails = simulate_coin_flips(num_flips)
+# Print the results
+print(f"Heads: {heads}")
+print(f"Tails: {tails}")
+'''
+# import random
+
+# def simulate_coin_series():
+#     consecutive_count = 0  # Count of consecutive heads or tails
+#     flips_needed = 0       # Total flips needed to reach 3 consecutive outcomes
+
+#     while consecutive_count < 3:
+#         # Simulate a coin flip (0 for Heads, 1 for Tails)
+#         result = random.randint(0, 1)
+        
+#         # Display the outcome
+#         print('H' if result == 0 else 'T', end=' ')
+        
+#         # Update consecutive count
+#         consecutive_count = consecutive_count + 1 if result == consecutive_result else 1
+
+#         # Update the previous result for comparison
+#         consecutive_result = result
+
+#         # Increment total flips
+#         flips_needed += 1
+
+#     print(f"\nFlips needed to get 3 consecutive: {flips_needed}")
+    
+#     return flips_needed
+
+# def main():
+#     total_flips = 0
+#     num_simulations = 10
+
+#     for _ in range(num_simulations):
+#         total_flips += simulate_coin_series()
+
+#     average_flips = total_flips / num_simulations
+#     print(f"\nAverage number of flips needed: {average_flips:.2f}")
+
+# if __name__ == "__main__":
+#     main()
