@@ -114,3 +114,36 @@ print(f"Tails: {tails}")
 
 # if __name__ == "__main__":
 #     main()
+import random
+
+def simulate_coin_series():
+    consecutive_count = 0
+    flips_needed = 0
+
+    while consecutive_count < 3:
+        result = random.choice(['H', 'T'])
+        print(result, end=' ')
+        
+        if result == 'H':
+            consecutive_count += 1
+        else:
+            consecutive_count = 0
+
+        flips_needed += 1
+
+    print(f"\nSố lần tung cần để có 3 liên tiếp: {flips_needed}")
+    
+    return flips_needed
+
+def main():
+    total_flips = 0
+    num_simulations = 10
+
+    for _ in range(num_simulations):
+        total_flips += simulate_coin_series()
+
+    average_flips = total_flips / num_simulations
+    print(f"\nSố lần tung trung bình cần: {average_flips:.2f}")
+
+if __name__ == "__main__":
+    main()
