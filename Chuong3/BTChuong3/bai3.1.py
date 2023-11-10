@@ -8,4 +8,5 @@ if(a+b)>c:
             p=(a+b+c)/2
             S=p*(p-a)*(p-b)*(p-c)
             print('Dien tich='+str(round(math.sqrt(S),3)))
+            
 else:print('Khong hop le')
