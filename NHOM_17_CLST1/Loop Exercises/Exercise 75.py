@@ -1,4 +1,4 @@
-# #tiên đề Euclid
+#tiên đề Euclid
 a=int(input('a='))
 b=int(input('b='))
 d=min(a,b)

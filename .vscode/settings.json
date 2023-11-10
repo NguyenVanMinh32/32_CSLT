@@ -1,0 +1,7 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.tabSize": 4,
+    "editor.wordWrap": "on",
+    "editor.accessibilityPageSize": 8,
+    "workbench.editor.enablePreview": false
+}
