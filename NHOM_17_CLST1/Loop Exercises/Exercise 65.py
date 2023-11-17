@@ -6,8 +6,8 @@ y1=None
 y2=None
 x1=float(input("Enter the x part of the coordinate:"))
 y1=float(input("Enter the y part of the coordinate:"))
-x_dau=x1
-y_dau=y1
+x-dau=x1
+y-dau=y1
 while True:
     x2=input("Enter the x part of the coordinate: (blank to quit):")
     if x2=="":
@@ -18,7 +18,7 @@ while True:
     p+=distance
     x1=x2
     y1=y2
-distance=((x_dau-x1)**2+(y_dau-y1)**2)**0.5
+distance=((x-dau-x1)**2+(y-dau-y1)**2)**0.5
 p+=distance
 print("The perimeter of that polygon is",p)
    

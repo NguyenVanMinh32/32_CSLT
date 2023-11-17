@@ -1,14 +1,14 @@
 import random
 number=0
-greatest_num=random.randint(1,100)
-pre_number=0
-update_time=0
-print(greatest_num)
+greatest-num=random.randint(1,100)
+pre-number=0
+update-time=0
+print(greatest-num)
 for i in range(99):
     number=random.randint(1,100)
-    if greatest_num<number:
-       greatest_num=number
+    if greatest-num<number:
+       greatest-num=number
        print(number,'<== Update')
-       update_time+=1
+       update-time+=1
     else:print(number)   
-print(f'The maximum value found was {greatest_num}',f'The maximum value was updated {update_time} times',sep='\n')
+print(f'The maximum value found was {greatest-num}',f'The maximum value was updated {update-time} times',sep='\n')

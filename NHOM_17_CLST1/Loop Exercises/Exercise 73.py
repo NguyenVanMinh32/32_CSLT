@@ -1,12 +1,12 @@
 string = input("Enter a string: ")
-string_cleaned=""
+string-cleaned=""
 for i in range(len(string)):
     char = string[i]
     if ( 'A'<=char<='Z'):
-        string_cleaned+=str(chr(ord(char)+ord('a')-ord('A')))
+        string-cleaned+=str(chr(ord(char)+ord('a')-ord('A')))
     else:
-        string_cleaned+=char
-is_palindrome=True
+        string-cleaned+=char
+is-palindrome=True
 left=0
 right=len(string)-1
 while left < right:
@@ -15,7 +15,7 @@ while left < right:
         break
     left = left + 1
     right = right - 1
-if is_palindrome==True:
+if is-palindrome==True:
     print(string,"is a palindrome.")
 else:
     print(string,"is not a palindrome.")

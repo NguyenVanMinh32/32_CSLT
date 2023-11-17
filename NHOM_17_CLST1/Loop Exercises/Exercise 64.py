@@ -10,8 +10,8 @@ print ("Tong chi phi:",total)
 pennies=total*100
 remainder=pennies%5
 if remainder <2.5:
-    cash_payment=pennies-remainder
+    cash-payment=pennies-remainder
 else:
-    cash_payment=pennies+(5-remainder)
-cash_payment /=100
-print("So tien phai tra bang tien mat($):",cash_payment)
+    cash-payment=pennies+(5-remainder)
+cash-payment /=100
+print("So tien phai tra bang tien mat($):",cash-payment)
