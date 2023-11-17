@@ -14,11 +14,12 @@ while True:
         break
     x2=float(x2)
     y2=float(input("Enter the y part of the coordinate:"))
-    distance = math.sqrt((x2_ x1)**2 + (y2 _ y1)**2)
+    distance = math.sqrt((x2- x1)**2 + (y2 - y1)**2)
     p+=distance
     x1=x2
     y1=y2
-distance=((x_dau_x1)**2+(y_dau_y1)**2)**0.5
+distance=((x_dau-x1)**2+(y_dau-y1)**2)**0.5
 p+=distance
 print("The perimeter of that polygon is",p)
+
    

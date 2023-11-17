@@ -3,9 +3,9 @@ a=int(input('a='))
 b=int(input('b='))
 d=min(a,b)
 while True:
-    d=d_1
     if a%d==0 and b%d==0:
-        break    
+        break   
+    else:d=d-1 
 print(d)
 
 

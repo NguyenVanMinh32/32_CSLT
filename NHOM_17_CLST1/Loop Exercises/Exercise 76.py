@@ -1,7 +1,7 @@
 n=int(input('Enter an integer (2 or greater):'))
 a=2
 if n<=2:
-    print('Error, Please re_enter.')
+    print('Error, Please re-enter.')
 else:
     print('The prime factors of',n,'are:')
     while n>1:
