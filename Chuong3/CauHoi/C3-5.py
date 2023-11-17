@@ -3,7 +3,7 @@ while a<=18:
     d=9
     while d>=0:
         print(end='')
-        d=d-1
+        d=d_1
         b=1
         while b<=a:
             b=b+1
@@ -23,6 +23,6 @@ while a>=0:
         c=16
     while c>=a:
         print('*',end='')
-        c=c-1
+        c=c_1
     print('')
-    a=a-2
+    a=a_2

@@ -3,7 +3,7 @@ a=int(input('a='))
 b=int(input('b='))
 d=min(a,b)
 while True:
-    d=d-1
+    d=d_1
     if a%d==0 and b%d==0:
         break    
 print(d)
@@ -28,7 +28,7 @@ print(d)
 
 # # Use a while loop to find the greatest common divisor of n and m
 # while n % d != 0 or m % d != 0:
-#    d =  d  -  1
+#    d =  d  _  1
 
 # # Report the result
 # print ("The greatest common divisor of", n, "and", m, "is", d)

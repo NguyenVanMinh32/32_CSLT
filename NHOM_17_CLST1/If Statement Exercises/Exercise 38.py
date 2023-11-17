@@ -1,5 +1,5 @@
 month=(input('month:'))
-days-in-month = {
+days_in_month = {
     'January' and 'january' and '1': 31,
     'February' and 'february' and '2': '28 or 29',  
     'March' and 'march' and '3': 31,
@@ -12,7 +12,7 @@ days-in-month = {
     'October' and 'october' and '10': 31,
     'November' and 'november' and '11': 30,
     'December' and 'december' and '12': 31}
-if month in days-in-month:
-    print('This month has',f'{days-in-month[month]} days.')
+if month in days_in_month:
+    print('This month has',f'{days_in_month[month]} days.')
 else:
     print('Invalid month.')

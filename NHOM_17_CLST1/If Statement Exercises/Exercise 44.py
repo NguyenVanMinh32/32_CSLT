@@ -7,4 +7,4 @@ elif (month=="July") or (month=="july") and (day==1):
 elif (month=="December") or (month=="december") and (day==25):
     print("Christmas day")
 else:
-    print("The entered month and day do not correspond to a fixed-date holiday")
+    print("The entered month and day do not correspond to a fixed_date holiday")

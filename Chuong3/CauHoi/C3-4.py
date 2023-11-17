@@ -5,4 +5,4 @@ while a>=0:
         print('$',end='') 
         b=b+1
     print('')
-    a=a-1
+    a=a_1

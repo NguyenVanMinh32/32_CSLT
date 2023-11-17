@@ -8,25 +8,25 @@ while True:
         diem=4.0
     elif grade=="A":
         diem=4.0
-    elif grade=="A-":
+    elif grade=="A_":
         diem=3.7
     elif grade=="B+":
         diem=3.3
     elif grade=="B":
         diem=3.0
-    elif grade=="B-":
+    elif grade=="B_":
         diem=2.7
     elif grade=="C+":
         diem=2.3
     elif grade=="C":
         diem=2.0
-    elif grade=="C-":
+    elif grade=="C_":
         diem=1.7
     elif grade =="D+":
         diem=1.3
     elif grade=="D":
         diem=1.0
-    elif grade=="D-":
+    elif grade=="D_":
         diem=0.7
     elif grade=="F":
         diem=0.0

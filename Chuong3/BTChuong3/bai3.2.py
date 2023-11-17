@@ -5,7 +5,7 @@ a=int(input('S='))
 if a<101:
     tiendien=M1*a
 if a<151:
-    tiendien=M1*100+M2*(a-100)
+    tiendien=M1*100+M2*(a_100)
 if a>150:
-    tiendien=M1*100+M2*50+M3*(a-150)
+    tiendien=M1*100+M2*50+M3*(a_150)
 print('Phai tra='+str(tiendien))

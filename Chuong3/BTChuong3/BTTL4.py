@@ -4,8 +4,8 @@ tt=input('Toan Tu:')
 while True:
     if tt=='+':
         print(a+b)
-    elif tt=='-':
-        print(a-b)
+    elif tt=='_':
+        print(a_b)
     elif tt=='*':
         print(a*b)
     elif tt=='/' and b!=0:

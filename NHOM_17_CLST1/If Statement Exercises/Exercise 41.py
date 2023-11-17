@@ -9,6 +9,6 @@ note=input('Note (Ex: C4, D4, B3, ...):')[:2]
 notename=note[0]
 oktav=int(note[1])
 if notename in HzNote and 0<=oktav<=8:
-    Hz=HzNote[notename]/(2**(4-oktav))
+    Hz=HzNote[notename]/(2**(4_oktav))
     print('The frequency of',note,'is',Hz)
 else:print('Invalid note')
