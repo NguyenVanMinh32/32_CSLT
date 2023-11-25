@@ -5,12 +5,6 @@ thân thiệ
 clean
 nhẹ, ít dung lượng
 từ khóa: and, del, from, nonlocal, try, as, elif, global, not, while, assert, else, if, or, with, break, except, import, pass, yield, class, finally, in, print, continue, is, raise, def, for, lambda, return
- Bằng: a == b
-Không bằng: a != b
-Nhỏ hơn: a < b
-Nhỏ hơn hoặc bằng: a <= b
-Lớn hơn: a > b
-Lớn hơn hoặc bằng: a >= b
 
 import math
 print(math.pi)
