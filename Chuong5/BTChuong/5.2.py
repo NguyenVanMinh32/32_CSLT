@@ -1,4 +1,4 @@
-def input():
+def iinput():
     n=int(input('n='))
     L=[]
     for i in range(n):
