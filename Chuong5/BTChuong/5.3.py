@@ -1,4 +1,4 @@
-def input():
+def iinput():
     n=int(input('n='))
     L=[]
     for i in range(n):
@@ -21,5 +21,5 @@ def inkq(L):
     print('SND=',count,sep='')
     print("TBC=", average,sep='')
 
-L=input()
+L=iinput()
 inkq(L)
