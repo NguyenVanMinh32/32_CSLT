@@ -20,52 +20,50 @@ def tinh(a,b):
 a,b=nhap()
 tinh(a,b)
 
-# %%
-#slide26
-def checkpass():
-    while True:
-        pw=input('Nhập pass:')
-        if str(pw).isalnum()==True:
-            print(pw)
-            break
-        else:
-            print('Nhập lại')
+# #slide26
+# def checkpass():
+#     while True:
+#         pw=input('Nhập pass:')
+#         if str(pw).isalnum()==True:
+#             print(pw)
+#             break
+#         else:
+#             print('Nhập lại')
 
 
-pw=checkpass()
+# pw=checkpass()
 
-# %%
-#slide27
-str='\n \n \n \t'
-print(str.isspace())
+# #slide27
+# str='\n \n \n \t'
+# print(str.isspace())
 
 
-# %%
-#slide28
-str="Bytesiwkkbf Lin"
-print(str.istitle())
 
-# %%
-#slide30
-def nhap():
-    pw=input('Nhập pass:')
-    return pw
-def checkpass(pw):
-    if len(pw)<8:
-        print('Không hợp lệ')
-    elif len(pw)>8:
-        for char in pw:
-                if not (char.isalpha() and char.isdigit() and char.isupper() and char.islower()):
-                    print('Không hợp lệ')
-                    nhap()
-        else:print('Hợp lệ')
-pw=nhap()
-checkpass(pw)
+# #slide28
+# str="Bytesiwkkbf Lin"
+# print(str.istitle())
+
+
+# #slide30
+# def nhap():
+#     pw=input('Nhập pass:')
+#     return pw
+# def checkpass(pw):
+#     if len(pw)<8:
+#         print('Không hợp lệ')
+#     elif len(pw)>8:
+#         for char in pw:
+#                 if not (char.isalpha() and char.isdigit() and char.isupper() and char.islower()):
+#                     print('Không hợp lệ')
+#                     nhap()
+#         else:print('Hợp lệ')
+# pw=nhap()
+# checkpass(pw)
     
     
     
 
-# %%
+
 
 
 

@@ -1,4 +1,17 @@
 {
-    "editor.fontSize": 12,
-    "files.autoSave": "afterDelay"
+    "editor.fontSize": 13.5,
+    "files.autoSave": "afterDelay",
+    "editor.accessibilityPageSize": 100,
+    "editor.tabSize": 4,
+    "editor.codeLensFontFamily": "12",
+    "debug.console.fontSize": 12,
+    "scm.inputFontSize": 12,
+    "terminal.integrated.fontFamily": "",
+    "terminal.integrated.fontSize": 12.8,
+    "chat.editor.fontSize": 12,
+    "markdown.preview.lineHeight": 2,
+    "chat.editor.lineHeight": 2,
+    "editor.mouseWheelZoom": true,
+    "markdown.preview.fontSize": 12,
+    "screencastMode.fontSize": 40
 }
