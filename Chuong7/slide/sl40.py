@@ -1,0 +1,13 @@
+
+a=input('tên:')
+b=input('tên:')
+c=input('tên:')
+d=input('tên:')
+q=int(input('số lượng'))
+w=int(input('số lượng'))
+e=int(input('số lượng'))
+r=int(input('số lượng'))
+print(a.rjust,str(q).ljust)
+print(b.rjust,str(w).ljust)
+print(c.rjust,str(e).ljust)
+print(d.rjust,str(r).ljust)

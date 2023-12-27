@@ -60,5 +60,5 @@ print(s)'''
 # m =  488
 # d =  min (n, m)
 # print(d)
-
+file_open=open('F:/đại học/năm 1/Cơ sở lập trình/32_CSLT1/thiNghiem.py','r')
 
