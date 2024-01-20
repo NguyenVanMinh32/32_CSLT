@@ -1,0 +1,89 @@
+hàm 
+print(f'{}')
+sep= khoảng cách giữa mỗi ký tự
+end= kết thúc câu
+Cú pháp: len(<chuỗi>)
+    Ý nghĩa: tính và trả về chiều dài của <chuỗi>
+str(<value>): chuyển <value> thành chuỗi;
+ int(< value >): chuyển <value> thành số nguyên;
+ float(< value >): chuyển <value> thành số thực;
+
+round(a,n): làm tròn đến chữ số a của n
+ sqrt
+
+ and	Nếu 2 vế của toán tử này đều là True thì kết quả sẽ là True và ngược lại nếu 1 trong 2 vế là False thì kết quả trả về sẽ là False.
+or	Nếu 1 trong 2 vế là True thì kết quả trả về sẽ là True và ngược lại nếu cả 2 vế là False thì kết quả trả về sẽ là False.
+not	Đây là dạng phủ định, nếu biểu thức là True thì nó sẽ trả về là False và ngược lại.
+
+&	(a & b) = 12 (00001100)
+|	(a | b) = 14 (00001111)
+^	(a ^ b) = 2 (00000010) 
+~	(-a) = -13 (00001101)
+<<	a<<a = 49152
+>>	a>>a = 0
+
+Toán Tử khai thác.
+Toán tử này thường được dùng để kiểm tra xem 1 đối số có nằm trong 1 tập hợp đối số hay không (list). Trong Python hỗ trợ chúng ta 2 dạng toán tử như sau:
+Giả sử: a = 4, b = [1,5,7,6,9]
+Toán Tử	Chú Thích	Ví Dụ
+in	Nếu 1 đối số thuộc một tập đối số nó sẽ trả về True và ngược lại/	a in b //False
+not in	Nếu 1 đối số không thuộc một tập đối số nó sẽ trả về True và ngược lại/	a not in b //True
+
+7, Toán tử xác thực.
+Dạng Toán tử này dùng để xác thực hai giá trị xem nó có bằng nhau hay không. Và trong Python hỗ trợ chúng ta 2 dạng sau:
+Giả sử: a = 4, b =5
+Toán Tử	Chú Thích	Ví Dụ
+is	Toán tử này sẽ trả về True nếu a == b và ngược lại	 a is b //False
+not is	Toán tử này sẽ trả về True nếu a != b và ngược lại	a is not b //True
+
+Phương thức random() trả về một số thực ngẫu nhiên từ 0 đến 1. Phương thức này sẽ không nhận bất cứ tham số nào cả.
+
+Phương thức randint() có nhiệm vụ trả về một giá trị số nguyên được chọn trong phạm vi được chỉ định.
+
+Phương thức randrange() có nhiệm vụ thực hiện trả về một phần tử được chọn ngẫu nhiên từ phạm vi được chỉ định.
+Cú pháp:
+random.randrange(start, stop, step)
+
+Phương thức seed() được sử dụng để khởi tạo trình tạo số ngẫu nhiên. Lí do đó là trong các hệ thống máy tính các thuật toán sinh số ngẫu nhiên thực chất đều là các thuật toán sinh số giả ngẫu nhiên nó sẽ sử dụng các giá trị mầm sinh để sinh ra các số "giả" ngẫu nhiên liên tiếp. Phương thức seed() trong random cho phép biến các giá trị đầu vào thành các mầm sinh cho thuật toán giả ngẫu nhiên.
+Ví dụ dưới đây cho phép chúng ta sinh ra một giá trị số thực ngẫu nhiên nằm trong khoảng 0 và 1 sử dụng mầm sinh là 10:
+import random
+random.seed(10)
+print(random.random())
+Kết quả đầu ra:
+0.5714025946899135
+
+Ví dụ:
+import random
+random.seed(12)
+print(random.random())
+random.seed(12)
+print(random.random())
+Kết quả đầu ra:
+0.4745706786885481
+0.4745706786885481
+
+Phương thức choice() trả về một phần tử được chọn ngẫu nhiên từ một tập hợp được chỉ định. Tập hợp đó có thể là một chuỗi ký tự, một danh sách hoặc bất kỳ kiểu tập hợp nào khác.
+Tham số của phương thức này là một tập hợp các phần tử hoặc một chuỗi bất kỳ.
+Ví dụ:
+import random
+mylist = ["apple", "banana", "orange"]
+print(random.choice(mylist))
+Kết quả đầu ra:
+banana
+
+
+Phương thức shuffle() nhận đầu vào là một tập hợp các phần tử, giống như một tập hợp kiểu danh sách và sắp xếp lại thứ tự của các phần tử. Về cơ bản nó như là một phép hoán vị ngẫu nhiên các phần tử trong tập hợp.
+Cú pháp:
+random.shuffle(sequence, function)
+Trong đó:
+Tham số đầu tiên sequence là bắt buộc. Đây là danh sách tập hợp các phần tử muốn trộn.
+Tham số thứ hai function là không bắt buộc. Đây sẽ là tên của một hàm trả về một số trong khoảng từ 0,0 đến 1,0. Nếu không được chỉ định, hàm random() sẽ được sử dụng.
+Ví dụ:
+import random
+def myfunction():
+  return 0.1
+mylist = ["apple", "grape", "orange"]
+random.shuffle(mylist, myfunction)
+print(mylist)
+Kết quả đầu ra:
+['grape', 'orange', 'apple']
