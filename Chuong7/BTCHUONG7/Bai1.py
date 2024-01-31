@@ -5,6 +5,7 @@ def nhapckt():
     ckt=input()
     return ckt
 def kiemtra(a,b,c,ckt):
+    a=b=c=0
     for char in ckt:
         if char.isupper():
             a+=1
@@ -17,7 +18,7 @@ def inkq(a,b,c,ckt):
     print(f'In hoa:{a}\nIn thuong:{b}\nChu so:{c}\nKhac:{len(ckt)-a-b-c}')
     return a,b,c,ckt
 ckt=nhapckt()
-a,b,c,ckt=kiemtra()
+kiemtra(a,b,c,ckt)
 inkq(a,b,c,ckt)
 
 # TEST:
